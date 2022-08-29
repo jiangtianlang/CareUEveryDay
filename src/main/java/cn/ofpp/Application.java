@@ -27,7 +27,6 @@ public class Application {
 
         // -----------------  以下为演示数据  ------------------------
 
-        // new 一个 女友
         GirlFriend girlFriend = new GirlFriend("小张同学",
                 "四川省", "成都市", "1998-12-06", "2019-02-19", "o5PbW5jDOhkdEKLT-8zHx8VrBnOE");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend,"o5PbW5gfNVS_vuWl3EaXSmw_bhPo"));
