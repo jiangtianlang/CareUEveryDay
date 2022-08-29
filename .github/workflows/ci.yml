@@ -15,7 +15,5 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           cache: maven
-      - name: Build with Maven
-        run: mvn -B package --file pom.xml
       - name: SendWxTemplateMsg
-        run: sudo java -jar ./target/CareUEveryDay-1.0.0.jar
+        run: sudo java -jar ./CareUEveryDay-1.0.0.jar
